@@ -1,0 +1,12 @@
+{
+  "name": "Emakina Naviweb Extension",
+  "version": "1.1",
+  "description": "This fixes some usability issues with temporary Naviweb ui",
+  "content_scripts": [
+    {
+      "matches": ["https://naviweb.emakina.com/timereg_resource_week.aspx"],
+      "js": ["jquery.js", "background.js"]
+    }
+  ]
+  
+}
