@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": ["https://naviweb.emakina.com/timereg_resource_week.aspx"],
-      "js": ["jquery.js", "background.js"]
+      "js": ["jquery.js", "background.js"],
+      "run_at": "document_end"
     }
   ]
   

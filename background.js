@@ -45,4 +45,14 @@ $(function() {
 		colorComments();
 	});
 	
+	$('#ic_imageCheckInput_0').click();
+	
+	$("[name$='btnSaveTime']").hide();
+	$('div.ActionBN').append(
+		$('<input type="button" value="Save" class="b_save"/>').click(function() {
+			window.onbeforeunload = undefined;
+			$("[name$='btnSaveTime']").click();
+		})
+	);
+	
 });
