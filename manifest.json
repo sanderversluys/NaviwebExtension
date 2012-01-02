@@ -1,6 +1,6 @@
 {
   "name": "Emakina Naviweb Extension",
-  "version": "1.1",
+  "version": "1.2",
   "description": "This fixes some usability issues with temporary Naviweb ui",
   "content_scripts": [
     {
